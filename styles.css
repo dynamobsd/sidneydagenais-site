@@ -1,0 +1,55 @@
+
+/* Basic CSS and layout (already modernized) */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:visited {
+  color: #000;
+  text-decoration: underline;
+}
+header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.hero, .categories, .youtube {
+  padding: 2rem;
+  background-color: #fff;
+}
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+footer {
+  padding: 2rem;
+  background-color: #111;
+  color: #eee;
+  text-align: center;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #ddd;
+}
